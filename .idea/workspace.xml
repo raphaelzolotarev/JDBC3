@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9a8d5bf-3d7c-424b-92d8-be93e2a0751e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jdbc/DataBaseApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jdbc/models/Beer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jdbc/models/Brewer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jdbc/models/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jdbc/repositories/BeerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jdbc/repositories/BrewerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jdbc/repositories/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/DataBaseApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc/DataBaseApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/repositories/BeerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc/repositories/BeerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/repositories/BrewerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc/repositories/BrewerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jdbc/repositories/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jdbc/repositories/CategoryRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2eBHUDip3ZG2njQkxGwBy2IgyDD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -58,6 +50,11 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -102,10 +99,26 @@
       <option name="presentableId" value="Default" />
       <updated>1711371065602</updated>
       <workItem from="1711371066654" duration="5106000" />
+      <workItem from="1711441935634" duration="5100000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/jdbc/DataBaseApp.java</url>
+          <line>9</line>
+          <properties class="jdbc.DataBaseApp" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

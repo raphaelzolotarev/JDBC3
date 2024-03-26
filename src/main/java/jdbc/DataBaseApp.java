@@ -9,18 +9,21 @@ import jdbc.repositories.CategoryRepository;
 public class DataBaseApp {
     public static void main(String[] args) {
         CategoryRepository categoryRepository = new CategoryRepository();
-        categoryRepository.read();
-        categoryRepository.update();
-        categoryRepository.delete();
+        //categoryRepository.create("Polska Pivo");
+        //categoryRepository.read();
+        //categoryRepository.update("Kurwa Pivo", 67);
+        categoryRepository.delete(67);
 
         BrewerRepository brewerRepository = new BrewerRepository();
-        brewerRepository.read();
-        brewerRepository.update();
-        brewerRepository.delete();
+        //brewerRepository.create("Artois","Vaartstraat 94",3000,"Leuven",4000000);
+        //brewerRepository.read();
+        //brewerRepository.update("Viking beer","Nostraat 94",3000,"Leuven",4000000, 127);
+        //brewerRepository.delete(127);
 
         BeerRepository beerRepository = new BeerRepository();
-        beerRepository.read();
-        beerRepository.update();
-        beerRepository.delete();
+        //beerRepository.create("Alcoholic pivo",100,14,2.75f,200,7,0, null);
+        //beerRepository.read();
+        //beerRepository.update("super Alcoholic pivo",100,14,2.75f,200,7,0, null, 1560);
+        //beerRepository.delete(1560);
     }
 }
